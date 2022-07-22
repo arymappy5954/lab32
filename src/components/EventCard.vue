@@ -9,9 +9,11 @@
 export default {
   name: 'EventCard',
   props: {
-    typr: Object,
-    required: true
-  },
+    event: {
+      type: Object,
+      required: true
+    }
+  }
 }
 </script>
 
