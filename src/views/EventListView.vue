@@ -10,7 +10,7 @@
 import EventCard from '@/components/EventCard.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'EventListView',
   components: {
     EventCard // register it as a child component
   },
